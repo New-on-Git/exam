@@ -1,0 +1,99 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LandingLoggedController!{% endblock %}
+
+{% block body %}
+
+    <style>
+        .flexer{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .commercials{
+            width: 20%;
+        }
+        .calendar{
+            width: 75%;
+        }
+        .oneCommercial{
+            display: block;
+            margin: 2em 0;
+        }
+    </style>
+
+    <div class="flexer">
+        <div class="commercials">
+            <a href="{{ path('app_booking_new') }}">Create new booking</a>
+
+            {% for oneCommercial in Commercials %}
+                <button class="oneCommercial" > {{ oneCommercial.email }}</button>
+            {% endfor %}
+        </div>
+        <div id="calendar-holder" class="calendar"></div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var calendarEl = document.getElementById('calendar-holder');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                defaultView: 'dayGridMonth',
+                editable: true,
+                eventSources: [
+                    {
+                        url: "/fc-load-events",
+                        method: "POST",
+                        extraParams: {
+                            filters: JSON.stringify({})
+                        },
+                        failure: () => {
+                            // alert("There was an error while fetching FullCalendar!");
+                        },
+                    },
+                ],
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay',
+                },
+                plugins: [ 'interaction', 'dayGrid', 'timeGrid' ], // https://fullcalendar.io/docs/plugin-index
+                timeZone: 'UTC',
+            });
+            calendar.render();
+        });
+
+        //     DU JS dans le twig ? tout ce qu'on aime
+        addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+
+                let allCommercials = document.querySelectorAll(".commercials .oneCommercial ")
+                let firstCommercial = allCommercials[0].innerHTML
+                let rdvs = document.querySelectorAll(".fc-event-container")
+
+                for (let i = 0; i < rdvs.length; i++) {
+                    rdvs[i].style.display = "none";
+
+                    if(rdvs[i].querySelector(".fc-title").innerHTML.trim() === firstCommercial.trim()){
+                        rdvs[i].style.display = "block";
+                    }
+                }
+
+                for (let i = 0; i < allCommercials.length; i++) {
+                    allCommercials[i].addEventListener('click' , function (){
+                        let commercialName = allCommercials[i].innerHTML
+
+                        for (let i = 0; i < rdvs.length; i++) {
+                            rdvs[i].style.display = "none";
+                            if(rdvs[i].querySelector(".fc-title").innerHTML.trim() === commercialName.trim()){
+                                rdvs[i].style.display = "block";
+                            }
+                        }
+                    })
+                }
+            }, 10000)
+        });
+    </script>
+{% endblock %}

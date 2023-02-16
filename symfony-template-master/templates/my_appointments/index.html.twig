@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MyAppointmentsController!{% endblock %}
+
+{% block body %}
+
+    <p>MES RENDEZ VOUS </p>
+    {% for rdv in myRdvs %}
+        {{ rdv.title }}
+        AVEC : {{ rdv.relatedCommercial }}
+    {% endfor %}
+{% endblock %}

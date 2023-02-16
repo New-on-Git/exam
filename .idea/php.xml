@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfonycasts/verify-email-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpstan/phpstan-symfony" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/sixlive/dotenv-editor" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpstan/phpstan-doctrine" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/geolid/phpcs" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/tattali/calendar-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/friendsoftwig/twigcs" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/escapestudios/symfony2-coding-standard" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/symfony-template-master/vendor/doctrine/cache" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
